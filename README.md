@@ -1,9 +1,8 @@
 # pinata-sdk
 
-![Rust](https://github.com/perfectmak/pinata-sdk/workflows/Rust/badge.svg)
 ![pinata-sdk](https://docs.rs/pinata-sdk/badge.svg)
 
-The `pinata_sdk` provides the easieset path for interacting with the [Pinata API](https://pinata.cloud/documentation#GettingStarted).
+The `pinata-sdk` provides the easieset path for interacting with the [Pinata API](https://pinata.cloud/documentation#GettingStarted).
 
 ### Setup
 
@@ -11,7 +10,7 @@ Add the crate as a dependency to your codebase
 
 ```toml
 [dependencies]
-pinata_sdk = "1.1.0"
+repo-name = { git = "https://github.com/raisemarketplace/pinata-sdk", branch = "master" }
 ```
 
 ### Initializing the API
